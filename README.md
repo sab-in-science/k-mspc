@@ -9,12 +9,12 @@ Zina-Sabrina Duma, Victoria Jorry, Tuomas Sihvonen, Satu-Pia Reinikainen, Lassi 
 
 ## What’s Inside?
 
-This toolbox provides an efficient and interpretable way to optimise **Kernel Multivariate Statistical Process Control (K-MSPC)** using **Kernel Flows**. It enhances fault detection in industrial processes by learning both the kernel function and parameters automatically.
+This toolbox provides an efficient and interpretable way to optimise **Kernel Multivariate Statistical Process Control (K-MSPC)** using **Kernel Flows**. It enhances fault detection in industrial processes by learning the kernel parameters of a set kernel function ("kernel" = i.e. "gaussian", "matern5/2", ...), or the kernel type and the kernel parameters ("kernelType" = "family").
 
 ### Key Features
 
-- **Fault detection via K-PCA/K-PCR**
-- **Multiple kernel types**: Gaussian, Matérn (½, 3/2, 5/2), Cauchy
+- **Fault detection via K-PCA, with parameter optimisation via K-PCR**
+- **Multiple kernel types**: Gaussian, Matérn (½, 3/2, 5/2), Cauchy, combination of kernels
 - **Supports learning parameters (a) for the whole dataset ("combined"), and (b) individually for each variable ("individual" or "individualScale")**
 - **Optimisation via Kernel Flows** (gradient-based learning)
 - Benchmarked on the **Tennessee Eastman Process**
