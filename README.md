@@ -1,8 +1,9 @@
 # Kernel-MSPC Optimisation Toolbox
 
-This repository contains the Julia code and tools accompanying the paper:
+This repository contains the Julia code and tools accompanying the submitted paper:
 
-**"Optimising Kernel-based Multivariate Statistical Process Control"** 
+**"Optimising Kernel-based Multivariate Statistical Process Control"**
+Zina-Sabrina Duma, Victoria Jorry, Tuomas Sihvonen, Satu-Pia Reinikainen, Lassi Roininen 
 > [📄 Read the preprint of the submitted paper](https://arxiv.org/pdf/2505.01556)  
 > [🎓 Associated Institution: LUT University](https://www.lut.fi)
 
@@ -14,7 +15,7 @@ This toolbox provides an efficient and interpretable way to optimise **Kernel Mu
 
 - **Fault detection via K-PCA/K-PCR**
 - **Multiple kernel types**: Gaussian, Matérn (½, 3/2, 5/2), Cauchy
-- **Supports combined, individual, and scaled kernel parameters**
+- **Supports learning parameters (a) for the whole dataset ("combined"), and (b) individually for each variable ("individual" or "individualScale")**
 - **Optimisation via Kernel Flows** (gradient-based learning)
 - Benchmarked on the **Tennessee Eastman Process**
 
